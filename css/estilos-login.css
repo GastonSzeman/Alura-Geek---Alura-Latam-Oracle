@@ -1,0 +1,101 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.principal-login{
+    width: 800px;
+}
+
+.principal-login__campos{
+    margin-top: 1%;
+    background: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+}
+
+.principal-login__titulo{
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.principal-login__entradas{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 2% 0;
+}
+
+.principal-login__entrada{
+    width: 200px;
+    margin: 1%;
+    align-items: center;
+    height: 2.3rem;
+    font-size: .9rem;
+    border: solid 1px #CCC;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.principal-login__boton{
+    background: #2A7AE4;
+    color: white;
+    border: solid 1px black;
+    border-radius: 5px;
+    width: 200px;
+    padding: .7rem 1.3rem;
+    margin-bottom: 3%;
+}
+
+.contacto-login{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    height: 225px;
+    background: #EAF2FD;
+}
+
+.contacto-login__info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.contacto-login__valores{
+    margin: 3%;
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+.contacto-login__nosotros{
+    margin-right: 3%;
+}
+
+.contacto__titulo{
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.entradas__contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.entrada__contacto{
+    margin: 3% 0%;
+    width: 225px;
+    font-size: 15px;
+}
+
+.pie-login{
+    width: 800px;
+    margin-top: 2%;
+    font-size: .75rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
